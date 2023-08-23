@@ -1,6 +1,6 @@
 plugins {
     id("com.android.library")
-    id("maven-publish") // 引入 maven 插件
+//    id("maven-publish") // 引入 maven 插件
 }
 android {
     compileSdkVersion 30
