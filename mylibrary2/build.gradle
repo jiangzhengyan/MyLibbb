@@ -1,6 +1,9 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-
+//apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
+plugins {
+    id("com.android.library")
+    id("maven-publish") // 引入 maven 插件
+}
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
